@@ -1,0 +1,155 @@
+/* defalut setup for only this website */
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.text-primary{
+    color:#FD6E0A ;
+    font-weight: 800;
+    line-height: auto;
+}
+.btn-primary{
+    color: #FFFFFF;
+    background-color: #FD6E0A;
+    border: none;
+    height: 64px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+
+/* nav-style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px;
+}
+
+/* left-side */
+.nav-title{
+    font-size: 45px;
+    color: black;
+}
+
+/* right-side */
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.dark-2{
+    color: #474747;
+}
+
+/* banner */
+.header{
+    background-image: url('./images/developer.png') ,url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 200px;
+}
+/* banner-content */
+.banner-content{
+    max-width: 580px;
+    
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600px;
+    color: #474747;
+}
+.banner-title{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 800px;   
+}
+
+.banner-description{
+    color:#757575 ;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+/* main  */
+main{
+    margin-top: 80px;
+}
+.section-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+/* About-section */
+.all-about-para{
+    color:#757575;
+}
+
+.about{
+    background-color:#FFF8F3;
+    height: 550px;
+    width: 1140px;
+    border-radius: 10px;
+    margin: auto;
+    padding-top: 10px;
+}
+.about-details{
+    padding: 0px 50px;
+    font-size: 18px;
+    color: #757575;
+
+}
+.about-me{
+    background-color: #FFFFFF;
+    height: 288px ;
+    width: 827px;
+    margin: auto;
+    
+}
+
+/* info */
+/* .info{
+padding-left: 80px;
+padding-right: 80px;
+padding-top: 18px;
+} */
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-top: 30px;
+    
+}
+
+ul li{
+    list-style: none;
+    
+}
+.h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
